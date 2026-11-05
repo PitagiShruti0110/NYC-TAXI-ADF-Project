@@ -1,0 +1,15 @@
+{
+	"name": "adf-nyc-taxi-shru",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "bd52c6e1-cd7e-4cef-bf83-566ec44bece2",
+		"tenantId": "ecb0d23f-1691-4e0a-bbfc-b36a29e085dc"
+	}
+}

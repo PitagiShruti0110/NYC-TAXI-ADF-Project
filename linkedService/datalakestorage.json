@@ -1,0 +1,12 @@
+{
+	"name": "datalakestorage",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://nyctaxistorageshru.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDJBNjU0ODBGLTBBNzYtNEM3Mi1BMTNBLURCMEFBMUQyMDEzM19hZDMwNDU2Ny02ZTg5LTRiNzUtODgwOS00Y2Q3MGE3YzMwOTAiDQp9"
+		}
+	}
+}
